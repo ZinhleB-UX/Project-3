@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    padding:2rem;
+    align-items: center;
+    justify-content: center;
+}
+div {
+    width:15rem;
+    height:10rem;
+    background:#266fed;
+    border-radius: 1rem;
+    text-align: center;
+    color:white;
+}
+.div:hover {
+    background:#e91e63;
+}
