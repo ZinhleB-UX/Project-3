@@ -1,17 +1,30 @@
-header {
-    display: flex;
-    padding:2rem;
-    align-items: center;
-    justify-content: center;
+body {
+    margin : 0;
+    padding : 0;
 }
-div {
-    width:15rem;
-    height:10rem;
+.container {
+    top: 10%;
+    left: 10%;
+    text-align: center;
     background:#266fed;
     border-radius: 1rem;
-    text-align: center;
-    color:white;
+    position: absolute;
+    width: 15rem;
+    height: 10rem;
 }
-.div:hover {
+header {
+    font-family: sans-serif;    
+    font-size: medium;
+    font-weight: 600;
+    padding: 2rem;
+    position: relative;
+}
+.card :hover {
     background:#e91e63;
+    animation-name: myclip;
+    animation-duration: 3s;
+}
+@keyframes myclip {
+    from {clip-path: circle(45% at 0% 0%);}
+    to {clip-path: circle(100% at 0% 0%);}
 }
